@@ -35,7 +35,7 @@ def get_birthday():
   return (next - today).days
 
 def get_words():
-  words = 'oEZ5j6Lc36ijT95YgdfNDmavcw8M'
+  words = '每天都要开心我的宝'
   return words
 
 def get_random_color():
