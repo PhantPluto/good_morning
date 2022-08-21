@@ -35,7 +35,7 @@ def get_birthday():
   return (next - today).days
 
 def get_words():
-  words = os.environ["WORDS"]
+  words = 'oEZ5j6Lc36ijT95YgdfNDmavcw8M'
   return words
 
 def get_random_color():
