@@ -38,7 +38,7 @@ def get_birthday():
 
 
 def get_words():
-    words = requests.get("https://api.shadiao.pro/chp").json()['data']['text']
+    words = requests.get("https://api.1314.cool/words/api.php").text.replace("<br>","\n")
     return words
 
 
