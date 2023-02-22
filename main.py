@@ -48,7 +48,7 @@ def get_random_color():
 client = WeChatClient(app_id, app_secret)
 
 wm = WeChatMessage(client)
-//wea, temperature, low, high = get_weather()
+wea, temperature, low, high = get_weather()
 data = {/*"weather": {"value": wea,"color":"#FFFF00"},
         "temperature": {"value": temperature,"color":"#FFFF00"},
         "low": {"value": low,"color":"#87CEFA"},
